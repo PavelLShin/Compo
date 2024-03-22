@@ -1,0 +1,40 @@
+.button_container {
+  background-color: #1551e5;
+  border-radius: 8px;
+  /* padding: 16px 24px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 12px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.button_container:hover {
+  transition: 0.5s all;
+  background-color: #316cff;
+}
+
+.button_container:active {
+  transition: 0.5s all;
+  background-color: #1551e5;
+}
+
+.button_container > img {
+  width: 24px;
+  height: 24px;
+}
+
+.button_container > h2 {
+  height: 10px;
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+  margin: 0 0 5px 0;
+
+  font-family: Gotham;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+}

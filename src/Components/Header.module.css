@@ -1,0 +1,251 @@
+.header_container {
+  min-width: 1680px;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header_up {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 24px;
+  height: 80px;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e4f0;
+}
+.header_up__brand {
+  cursor: pointer;
+  width: 144px;
+  height: 28px;
+  display: flex;
+  align-items: flex-end;
+  gap: 8.46px;
+}
+
+form {
+  transition: 0.5s all;
+  cursor: pointer;
+  width: 732px;
+  height: 48px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #e1e5eb;
+  border-radius: 8px;
+}
+
+form:hover {
+  transition: 0.5s all;
+  border: 1px solid #828ead;
+}
+
+form:focus-within {
+  transition: 0.5s all;
+  border: 2px solid #1551e5;
+  box-shadow: 0px 0px 6px 0px #bac4e0;
+}
+
+form > input {
+  padding: 8px 12px 8px 16px;
+  border: 0px;
+  width: 590px;
+  height: 32px;
+  border-radius: 8px;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  border: none;
+}
+
+.header_up__call_like {
+  cursor: pointer;
+  width: 148px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.call__img_container {
+  border-right: 1px solid #e2e4f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 48px;
+}
+
+.like__img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 74px;
+  height: 48px;
+}
+
+input {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.header_up__price {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 148px;
+  height: 48px;
+  gap: 12px;
+  border-radius: 8px;
+  background-color: #f2f6ff;
+}
+
+.price_txt {
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+.price_txt > h2 {
+  font-family: Gotham;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+
+  color: #1551e5;
+}
+
+.header_up__person_info {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 169px;
+  height: 32px;
+  gap: 16px;
+}
+
+.header_up__person_info > img {
+  width: 32px;
+  height: 32px;
+
+  border-radius: 8px;
+}
+
+.person_info__txt {
+  width: 81px;
+  height: 16px;
+}
+
+.person_info__txt > h2 {
+  margin: 0;
+  font-family: Gotham Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+}
+
+.person_info__string_img {
+  width: 24px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.header_down {
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e4f0;
+  display: flex;
+  align-items: center;
+
+  height: 56px;
+  padding: 12px 24px;
+  gap: 16px;
+}
+
+.header_down__menu {
+  display: flex;
+  width: 1215px;
+  height: 16px;
+  gap: 24px;
+  align-items: center;
+}
+
+.header_down__menu > h2 {
+  cursor: pointer;
+  margin: 0;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+}
+
+.header_down__blog {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 321px;
+  height: 32px;
+  gap: 24px;
+}
+
+.blog_manager {
+  background-color: #f2f6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 159px;
+  height: 32px;
+  gap: 8px;
+  border-radius: 4px;
+}
+
+.blog_manager > h2 {
+  margin: 0;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #1551e5;
+}
+
+.header_down__stock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 79px;
+  height: 16px;
+  gap: 16px;
+}
+
+.header_down__stock > h2 {
+  margin: 0;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #1551e5;
+}
+
+.header_down__blog > h2 {
+  margin: 0;
+
+  font-family: Gotham Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #1551e5;
+}
